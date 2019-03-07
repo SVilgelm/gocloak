@@ -10,6 +10,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
+	"log"
 	"math/big"
 	"strings"
 
@@ -100,6 +101,9 @@ func DecodeAccessTokenCustomClaims(accessToken string, e string, n string, custo
 		}
 		return rsaPublicKey, nil
 	})
+	log.Printf("token2: %v", token2)
+	log.Printf("Err: %v", err)
+
 	if err != nil {
 		return nil, err
 	}
