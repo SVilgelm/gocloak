@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1581367039731,
+  "lastUpdate": 1588608793123,
   "repoUrl": "https://github.com/SVilgelm/gocloak",
   "entries": {
     "Benchmark": [
@@ -144,6 +144,54 @@ window.BENCHMARK_DATA = {
             "value": 67728072,
             "unit": "ns/op\t   64364 B/op\t     184 allocs/op",
             "extra": "19 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sergey@vilgelm.info",
+            "name": "Sergey Vilgelm",
+            "username": "SVilgelm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33311f5e5b1d62da4005dcc15026b17974ac7eef",
+          "message": "Merge pull request #164 from FridaFino/master\n\nadd groups count",
+          "timestamp": "2020-05-04T10:36:25-05:00",
+          "tree_id": "660f956fbf479f951c38ff8980277da4e1d157ad",
+          "url": "https://github.com/SVilgelm/gocloak/commit/33311f5e5b1d62da4005dcc15026b17974ac7eef"
+        },
+        "date": 1588608792527,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLogin",
+            "value": 85184426,
+            "unit": "ns/op\t   67046 B/op\t     213 allocs/op",
+            "extra": "12 times"
+          },
+          {
+            "name": "BenchmarkLogin",
+            "value": 85913274,
+            "unit": "ns/op\t   52271 B/op\t     211 allocs/op",
+            "extra": "14 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 81163015,
+            "unit": "ns/op\t   60221 B/op\t     211 allocs/op",
+            "extra": "14 times"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 56648081,
+            "unit": "ns/op\t   63446 B/op\t     211 allocs/op",
+            "extra": "25 times\n2 procs"
           }
         ]
       }
