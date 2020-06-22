@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1588608793123,
+  "lastUpdate": 1592830360105,
   "repoUrl": "https://github.com/SVilgelm/gocloak",
   "entries": {
     "Benchmark": [
@@ -192,6 +192,54 @@ window.BENCHMARK_DATA = {
             "value": 56648081,
             "unit": "ns/op\t   63446 B/op\t     211 allocs/op",
             "extra": "25 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sergey@vilgelm.com",
+            "name": "Sergey Vilgelm",
+            "username": "SVilgelm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9070cf0ccf654c0866d1d924fd4a94a88546a323",
+          "message": "Merge pull request #178 from viniciussousazup/feature/loginOtp\n\nFeature/login otp",
+          "timestamp": "2020-06-22T07:38:48-05:00",
+          "tree_id": "9363750fc76248f29a0602d402bc659c38bc375b",
+          "url": "https://github.com/SVilgelm/gocloak/commit/9070cf0ccf654c0866d1d924fd4a94a88546a323"
+        },
+        "date": 1592830359696,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLogin",
+            "value": 69933247,
+            "unit": "ns/op\t   57389 B/op\t     210 allocs/op",
+            "extra": "15 times"
+          },
+          {
+            "name": "BenchmarkLogin",
+            "value": 70185770,
+            "unit": "ns/op\t   50638 B/op\t     212 allocs/op",
+            "extra": "16 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 70758566,
+            "unit": "ns/op\t   39026 B/op\t     210 allocs/op",
+            "extra": "16 times"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 46227268,
+            "unit": "ns/op\t   54698 B/op\t     210 allocs/op",
+            "extra": "26 times\n2 procs"
           }
         ]
       }
